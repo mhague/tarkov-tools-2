@@ -53,7 +53,7 @@
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "prestart": "npm run prebuild",
-    "start": "react-scripts start",
+    "start": "PORT=80 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
